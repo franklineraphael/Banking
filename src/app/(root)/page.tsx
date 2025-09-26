@@ -1,4 +1,3 @@
-import { Section } from "lucide-react";
 import React from "react";
 import HeaderBox from "../components/HeaderBox";
 
@@ -13,9 +12,8 @@ const Home = () => {
             type="greeting"
             title="Welcome"
             user={loggedIn?.firstName || "Guest"}
-            subtext="Acess and manage your account and transactions efficiently."
+            subtext="Access and manage your account and transactions efficiently."
           />
-          Welcome, Frankline
         </header>
       </div>
     </section>
